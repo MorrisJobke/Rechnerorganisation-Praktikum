@@ -1,0 +1,44 @@
+# Input: clk
+NET "nexys2_clk" LOC = "B8"; # clk
+
+# Inputs: BTN0 - 3
+NET "nexys2_btn0" LOC = "B18"; # BTN0
+NET "nexys2_btn1" LOC = "D18"; # BTN1
+NET "nexys2_btn2" LOC = "E18"; # BTN2
+NET "nexys2_btn3" LOC = "H13"; # BTN3
+
+# Inputs: SW0 - SW7
+NET "nexys2_sw0" LOC = "G18"; # SW0
+NET "nexys2_sw1" LOC = "H18"; # SW1
+NET "nexys2_sw2" LOC = "K18"; # SW2
+NET "nexys2_sw3" LOC = "K17"; # SW3
+NET "nexys2_sw4" LOC = "L14"; # SW4
+NET "nexys2_sw5" LOC = "L13"; # SW5
+NET "nexys2_sw6" LOC = "N17"; # SW6
+NET "nexys2_sw7" LOC = "R17"; # SW7
+
+# Outputs: LD0 - LD7
+NET "nexys2_ld0" LOC = "J14"; # LD0
+NET "nexys2_ld1" LOC = "J15"; # LD1
+NET "nexys2_ld2" LOC = "K15"; # LD2
+NET "nexys2_ld3" LOC = "K14"; # LD3
+NET "nexys2_ld4" LOC = "E16"; # LD4
+NET "nexys2_ld5" LOC = "P16"; # LD5
+NET "nexys2_ld6" LOC = "E4";  # LD6
+NET "nexys2_ld7" LOC = "P4";  # LD7
+
+# Outputs: CA - DP
+NET "nexys2_disp1_ca" LOC = "L18"; # CA
+NET "nexys2_disp1_cb" LOC = "F18"; # CB
+NET "nexys2_disp1_cc" LOC = "D17"; # CC
+NET "nexys2_disp1_cd" LOC = "D16"; # CD
+NET "nexys2_disp1_ce" LOC = "G14"; # CE
+NET "nexys2_disp1_cf" LOC = "J17"; # CF
+NET "nexys2_disp1_cg" LOC = "H14"; # CG
+NET "nexys2_disp1_dp" LOC = "C17"; # DP
+
+# Outputs: AN0 - AN3
+NET "nexys2_disp1_an0" LOC = "F17"; # AN0
+NET "nexys2_disp1_an1" LOC = "H17"; # AN1
+NET "nexys2_disp1_an2" LOC = "C18"; # AN2
+NET "nexys2_disp1_an3" LOC = "F15"; # AN3
